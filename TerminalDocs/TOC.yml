@@ -1,0 +1,46 @@
+- name: Windows ターミナル
+  items:
+    - name: 概要
+      href: index.md
+    - name: 開始
+      href: get-started.md
+    - name: 設定のカスタマイズ
+      items:
+        - name: グローバル設定
+          href: customize-settings/global-settings.md
+        - name: プロファイルの設定
+          href: customize-settings/profile-settings.md
+        - name: 配色
+          href: customize-settings/color-schemes.md
+        - name: ショートカット キー
+          href: customize-settings/key-bindings.md
+    - name: コマンド ライン引数
+      href: command-line-arguments.md
+    - name: 動的プロファイル
+      href: dynamic-profiles.md
+    - name: 検索
+      href: search.md
+    - name: ペイン
+      href: panes.md
+    - name: Cascadia Code
+      href: cascadia-code.md
+    - name: チュートリアル
+      items:
+        - name: Powerline の設定
+          href: tutorials/powerline-setup.md
+        - name: SSH
+          href: tutorials/ssh.md
+        - name: タブ タイトルの設定
+          href: tutorials/tab-title.md
+    - name: カスタム ターミナル ギャラリー
+      items:
+        - name: PowerShell での Powerline
+          href: custom-terminal-gallery/powerline-in-powershell.md
+        - name: Raspberry Ubuntu
+          href: custom-terminal-gallery/raspberry-ubuntu.md
+        - name: すりガラスのテーマ
+          href: custom-terminal-gallery/frosted-glass-theme.md
+        - name: レトロ コマンド プロンプト
+          href: custom-terminal-gallery/retro-command-prompt.md
+    - name: トラブルシューティング
+      href: troubleshooting.md

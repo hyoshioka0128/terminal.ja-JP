@@ -7,16 +7,16 @@ ms.date: 05/19/2020
 ms.topic: overview
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: cfefc48d19db97e18429a4653afe8cad9cd811ca
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: ab29130e34e6d3adbda37a002a03383211d27bce
+ms.sourcegitcommit: a77ad8aec5bbeba1e58a92c49dc2ebd67a426ae7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83416647"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83866364"
 ---
 # <a name="what-is-windows-terminal"></a>Windows ターミナルとは
 
-Windows ターミナルは、コマンド プロンプト、PowerShell、Windows Subsystem for Linux (WSL) などのコマンド ライン ツールとシェルのユーザー向けの最新のターミナル アプリケーションです。 主な機能には、複数のタブ、ペイン、Unicode および UTF-8 文字のサポート、GPU で高速化されたテキスト レンダリング エンジン、独自のテーマを作成したり、テキスト、色、背景、およびショートカット キーのバインドをカスタマイズしたりする機能があります。
+Windows ターミナルは、コマンド プロンプト、PowerShell、Linux 用 Windows サブシステム (WSL) などのコマンド ライン ツールとシェルのユーザー向けの最新のターミナル アプリケーションです。 主な機能には、複数のタブ、ペイン、Unicode および UTF-8 文字のサポート、GPU で高速化されたテキスト レンダリング エンジン、独自のテーマを作成したり、テキスト、色、背景、およびショートカット キーのバインドをカスタマイズしたりする機能があります。
 
 ![Windows ターミナルのスクリーンショット](./images/overview.png)
 
@@ -35,7 +35,7 @@ Windows ターミナルにさまざまな配色や設定を構成できます。
 
 Windows ターミナルでは、より自然に使用できるようにするためにさまざまなカスタム キーの組み合わせが用意されています。 特定のショートカット キーが気に入らない場合は、お好きなものに変更できます。
 
-たとえば、コマンド ラインからテキストをコピーするための既定のショートカット キー バインドは、<kbd>ctrl+shift+c</kbd> です。 これを、<kbd>ctrl+1</kbd> やお好きなものに変更できます。 新しいタブを開くための既定のショートカットは <kbd>ctrl+t</kbd> ですが、これを <kbd>ctrl+2</kbd> に変更することもできます。 開いているタブの間を切り替える既定のショートカットは <kbd>ctrl+tab</kbd> ですが、これを <kbd>ctrl+-</kbd> に変更し、代わりに新しいタブを作成するために使用できます。
+たとえば、コマンド ラインからテキストをコピーするための既定のショートカット キー バインドは、<kbd>ctrl+shift+c</kbd> です。 これを、<kbd>ctrl+1</kbd> やお好きなものに変更できます。 新しいタブを開くための既定のショートカットは <kbd>ctrl+shift+t</kbd> ですが、これを <kbd>ctrl+2</kbd> に変更することもできます。 開いているタブの間を切り替える既定のショートカットは <kbd>ctrl+tab</kbd> ですが、これを <kbd>ctrl+-</kbd> に変更し、代わりに新しいタブを作成するために使用できます。
 
 キー バインドのカスタマイズについては、[キー バインドに関するページ](./customize-settings/key-bindings.md)を参照してください。
 

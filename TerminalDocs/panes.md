@@ -3,21 +3,23 @@ title: Windows ターミナル ペイン
 description: Windows ターミナルでペインを分割する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
-ms.date: 05/19/2020
+ms.date: 06/18/2020
 ms.topic: how-to
 ms.service: terminal
-ms.openlocfilehash: 5d13d48d8e9317c229720937f916f57769da7261
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: 0e2d7a50e1a3c933f7ab2d98bda5be6b8ee44e7e
+ms.sourcegitcommit: 91a802863cd0730d2e364377ffe44f819a66ff2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83416307"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994322"
 ---
 # <a name="panes-in-windows-terminal"></a>Windows ターミナルのペイン
 
-ペインでは、同じタブ内で複数のコマンド ライン アプリケーションを並べて同時に実行することができます。これにより、タブを切り替える必要が最小限に抑えられ、一度に複数のプロンプトを表示することができます。
+ペインでは、同じタブ内で複数のコマンドライン アプリケーションを並べて同時に実行することができます。これにより、タブを切り替える必要が最小限に抑えられ、一度に複数のプロンプトを表示することができます。
 
 ## <a name="creating-a-new-pane"></a>新しいペインを作成する
+
+### <a name="using-the-keyboard"></a>キーボードを使用する
 
 Windows ターミナルで、垂直方向または水平方向の新しいペインを作成できます。 垂直方向に分割すると、フォーカスがあるペインの右側に新しいペインが開かれ、水平方向に分割すると、フォーカスがあるペインの下に新しいペインが開かれます。 既定のプロファイルの新しい垂直ペインを作成するには、<kbd>alt+shift+plus</kbd> を入力します。 既定のプロファイルの水平ペインの場合は、<kbd>alt+shift+-</kbd> と入力します。
 
@@ -31,6 +33,15 @@ _構成:[Raspberry Ubuntu](./custom-terminal-gallery/raspberry-ubuntu.md)_
 { "command": { "action": "splitPane", "split": "horizontal" }, "keys": "alt+shift+-" },
 { "command": { "action": "splitPane", "split": "auto" }, "keys": "alt+shift+|" }
 ```
+
+### <a name="using-the-dropdown-menu-preview"></a>ドロップダウン メニューを使用する ([プレビュー](https://aka.ms/terminal-preview/))
+
+ドロップダウン メニューから新しいペインを開く場合、<kbd>Alt</kbd> キーを押しながら、目的のプロファイルをクリックします。 これにより、アクティブなウィンドウまたはペインが、選択したプロファイルの新しいペインに `auto` 分割されます。 `auto` 分割モードは、ペインを作成するために長辺の方向に分割されます。
+
+![Windows ターミナルのドロップダウン ペイン](./images/alt-click-pane.gif)
+
+> [!IMPORTANT]
+> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="switching-between-panes"></a>ペインを切り替える
 

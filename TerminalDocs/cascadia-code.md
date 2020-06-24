@@ -6,16 +6,16 @@ ms.author: cinnamon
 ms.date: 05/19/2020
 ms.topic: overview
 ms.service: terminal
-ms.openlocfilehash: e9af1ea8445514534c64410fe494d35186d028b5
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: c2d9b8461c168639f1453050e18f0650afb738fb
+ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415857"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84720098"
 ---
 # <a name="cascadia-code"></a>Cascadia Code
 
-Cascadia Code は、コマンド ライン アプリケーションやテキスト エディターに新鮮なエクスペリエンスを提供する、Microsoft が提供する新しい等幅フォントです。 Cascadia Code は、Windows ターミナルと共に開発されました。 このフォントは、ターミナル アプリケーションや、Visual Studio や Visual Studio Code などのテキスト エディターで使用することをお勧めします。
+Cascadia Code は、コマンドライン アプリケーションやテキスト エディターに新鮮なエクスペリエンスを提供する、Microsoft が提供する新しい等幅フォントです。 Cascadia Code は、Windows ターミナルと共に開発されました。 このフォントは、ターミナル アプリケーションや、Visual Studio や Visual Studio Code などのテキスト エディターで使用することをお勧めします。
 
 ## <a name="cascadia-code-versions"></a>Cascadia Code のバージョン
 
@@ -30,9 +30,9 @@ Cascadia Code には、合字とグリフを含む使用可能な複数のバー
 
 ## <a name="powerline-and-programming-ligatures"></a>Powerline とプログラミングの合字
 
-Powerline は、一般的なコマンド ライン プラグインで、プロンプトに追加情報を表示することができます。 この情報を適切に表示するために、いくつかの追加のグリフが使用されています。 コマンド プロンプトでの Powerline の設定の詳細については、[Windows ターミナルの Powerline に関するページ](./tutorials/powerline-setup.md)を参照してください。
+Powerline は、一般的なコマンドライン プラグインで、プロンプトに追加情報を表示することができます。 この情報を適切に表示するために、いくつかの追加のグリフが使用されています。 コマンド プロンプトでの Powerline の設定の詳細については、[Windows ターミナルの Powerline に関するページ](./tutorials/powerline-setup.md)を参照してください。
 
-プログラミング合字は、文字を組み合わせることによって作成されるグリフです。 これらは、コードを記述するときに役立つものである必要があります。 合字は、"Code" のバリアントには含まれていますが、"Mono" のバリアントでは除外されています。
+プログラミング合字は、文字を組み合わせることによって作成されるグリフです。 これらは、コードを記述するときに最適です。 合字は、"Code" のバリアントには含まれていますが、"Mono" のバリアントでは除外されています。
 
 ![Cascadia Code のプログラミング合字](./images/programming-ligatures.gif)
 

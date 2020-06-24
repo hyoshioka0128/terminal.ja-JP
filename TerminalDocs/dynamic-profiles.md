@@ -6,16 +6,16 @@ ms.author: cinnamon
 ms.date: 05/19/2020
 ms.topic: concept
 ms.service: terminal
-ms.openlocfilehash: 9c54dc2182584873d9d0c1358083d5142d07ef48
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: 7ab394cea84eaab08b14edf859ef0cd9390d7267
+ms.sourcegitcommit: a489b75e14e2c123bf6b4ac2a15ff85b515564be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83416127"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "83553194"
 ---
 # <a name="dynamic-profiles-in-windows-terminal"></a>Windows ターミナルでの動的プロファイル
 
-Windows ターミナルでは、Linux 用 Windows サブシステム (WSL) と PowerShell のシェルがコンピューターにインストールされている場合、これらに対するプロファイルが自動的に作成されます。 これにより、実行可能ファイルを探す必要なしに、すべてのシェルをターミナルに簡単に含めることができるようになります。 これらのプロファイルは、`source` プロパティを使用して生成されます。このプロパティでは、適切な実行可能ファイルを見つける場所がターミナルに通知されます。
+Windows ターミナルでは、Linux 用 Windows サブシステム (WSL) と PowerShell のシェルがマシンにインストールされている場合、これらに対するプロファイルが自動的に作成されます。 これにより、実行可能ファイルを探す必要なしに、すべてのシェルをターミナルに簡単に含めることができるようになります。 これらのプロファイルは、`source` プロパティを使用して生成されます。このプロパティでは、適切な実行可能ファイルを見つける場所がターミナルに通知されます。
 
 ターミナルをインストールすると、PowerShell が既定のプロファイルとして設定されます。 既定のプロファイルを変更する方法については、[グローバル設定に関するページ](./customize-settings/global-settings.md)を参照してください。
 

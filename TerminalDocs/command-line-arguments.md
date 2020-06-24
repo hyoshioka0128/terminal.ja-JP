@@ -1,26 +1,26 @@
 ---
-title: Windows ターミナルのコマンド ライン引数
-description: Windows ターミナルのコマンド ライン引数を作成する方法について説明します。
+title: Windows ターミナルのコマンドライン引数
+description: Windows ターミナルのコマンドライン引数を作成する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
-ms.date: 05/19/2020
+ms.date: 06/18/2020
 ms.topic: how-to
 ms.service: terminal
-ms.openlocfilehash: e30fd547052a87c88b72d015e132e32b1889af05
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: d40b0527bab94289457cf8c8a88931f4df943496
+ms.sourcegitcommit: 91a802863cd0730d2e364377ffe44f819a66ff2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415897"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994384"
 ---
-# <a name="using-command-line-arguments-for-windows-terminal"></a>Windows ターミナルに対するコマンド ライン引数を使用する
+# <a name="using-command-line-arguments-for-windows-terminal"></a>Windows ターミナルにコマンド ライン引数を使用する
 
 `wt.exe` を使用すると、コマンド ラインから Windows ターミナルの新しいインスタンスを開くことができます。 代わりに、実行エイリアス `wt` を使用することもできます。
 
 > [!NOTE]
-> [GitHub](https://github.com/microsoft/terminal)のソース コードから Windows ターミナルをビルドした場合、`wtd.exe` または `wtd` を使用してそのビルドを開くことができます。
+> [GitHub](https://github.com/microsoft/terminal) のソース コードから Windows ターミナルをビルドした場合、`wtd.exe` または `wtd` を使用してそのビルドを開くことができます。
 
-![分割ペインに対する Windows ターミナル コマンド ライン引数](./images/terminal-command-args.gif)
+![分割ペインの Windows ターミナル コマンドライン引数](./images/terminal-command-args.gif)
 
 ## <a name="command-line-syntax"></a>コマンド ライン構文
 
@@ -30,7 +30,7 @@ ms.locfileid: "83415897"
 wt [options] [command ; ]
 ```
 
-使用可能なコマンド ライン引数を一覧表示するヘルプ メッセージを表示するには、`wt -h`、`wt --help`、`wt -?`、または `wt /?` と入力します。
+使用可能なコマンドライン引数を一覧表示するヘルプ メッセージを表示するには、`wt -h`、`wt --help`、`wt -?`、`wt /?` と入力します。
 
 ## <a name="options-and-commands"></a>オプションとコマンド
 
@@ -39,12 +39,20 @@ wt [options] [command ; ]
 | オプション | 説明 |
 | ------ | ----------- |
 | `--help`、`-h`、`-?`、`/?` | ヘルプ メッセージを表示します。 |
+| `--maximized`、`-M` | ターミナルを最大化して起動します。 |
+| `--fullscreen`、`-F` | ターミナルを全画面で起動します。 |
+
+> [!IMPORTANT]
+> `--maximized`、`-M` と `--fullscreen`、`-F` は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 | コマンド | パラメーター | 説明 |
 | ------- | ---------- | ----------- |
-| `new-tab` | `--profile, -p profile-name`、`--startingDirectory, -d starting-directory`、`commandline` | 新しいタブを作成します。 |
-| `split-pane` | `-H, --horizontal`、`-V, --vertical`、`--profile, -p profile-name`、`--startingDirectory, -d starting-directory`、`commandline` | 新しいペインを分割します。 |
+| `new-tab` | `--profile, -p profile-name`、`--startingDirectory, -d starting-directory`、`commandline`、`--title` | 新しいタブを作成します。 |
+| `split-pane` | `-H, --horizontal`、`-V, --vertical`、`--profile, -p profile-name`、`--startingDirectory, -d starting-directory`、`commandline`、`--title` | 新しいペインを分割します。 |
 | `focus-tab` | `--target, -t tab-index` | 特定のタブにフォーカスを設定します。 |
+
+> [!IMPORTANT]
+> `--title` は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="command-line-argument-examples"></a>コマンド ライン引数の例
 
@@ -125,7 +133,7 @@ wt ; ;
 wt `; `;
 ```
 
-PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンド ライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
+PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンドライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
 
 #### <a name="linux"></a>[Linux](#tab/linux)
 
@@ -153,7 +161,7 @@ wt -p "Command Prompt" ; new-tab -p "Windows PowerShell"
 wt -p "Command Prompt" `; new-tab -p "Windows PowerShell"
 ```
 
-PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンド ライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
+PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンドライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
 
 #### <a name="linux"></a>[Linux](#tab/linux)
 
@@ -183,7 +191,7 @@ wt -p "Command Prompt" ; split-pane -p "Windows PowerShell" ; split-pane -H wsl.
 wt -p "Command Prompt" `; split-pane -p "Windows PowerShell" `; split-pane -H wsl.exe
 ```
 
-PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンド ライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
+PowerShell では、ステートメントを区切るためにセミコロン ; を使用します。 wt コマンドライン引数でセミコロン ; がコマンド区切り記号として解釈されるためには、バッククォートを使用してセミコロン文字をエスケープする必要があります。 また、PowerShell には、解析停止演算子 (--%) もあります。これにより、それより後のすべての解釈が停止され、逐語的にただ渡されます。
 
 #### <a name="linux"></a>[Linux](#tab/linux)
 
@@ -197,6 +205,37 @@ cmd.exe /c "wt.exe" -p "Command Prompt" \; split-pane -p "Windows PowerShell" \;
 <!-- End tab selectors.  -->
 
 `-H` フラグ (または `--horizontal`) は、ペインを水平方向に分割するように指定します。 `-V` フラグ (または `--vertical`) は、ペインを垂直方向に分割するように指定します。
+
+### <a name="tab-title-preview"></a>タブ タイトル ([プレビュー](https://aka.ms/terminal-preview/))
+
+カスタム タブ タイトルを使用して新しいターミナル インスタンスを開くには、`--title` 引数を使用します。 2 つのタブを開くときに各タブのタイトルを設定するには、次のように入力します。
+
+<!-- Start tab selectors. -->
+#### <a name="command-prompt"></a>[コマンド プロンプト](#tab/windows)
+
+```bash
+wt --title tabname1 ; new-tab -p "Ubuntu-18.04" --title tabname2
+```
+
+#### <a name="powershell"></a>[PowerShell](#tab/powershell)
+
+```powershell
+wt --title tabname1 `; new-tab -p "Ubuntu-18.04" --title tabname2
+```
+
+#### <a name="linux"></a>[Linux](#tab/linux)
+
+```bash
+cmd.exe /c "wt.exe" --title tabname1 \; new-tab -p "Ubuntu-18.04" --title tabname2
+```
+
+実行エイリアスは、WSL ディストリビューションでは機能しません。 WSL コマンド ラインから wt.exe を使用する場合は、`cmd.exe` を実行することにより、CMD から直接生成することができます。 `/c` オプションは実行後に終了するよう CMD に指示するものであり、`\;` (スラッシュ + セミコロン) はコマンド間の区切りです。
+
+---
+<!-- End tab selectors.  -->
+
+> [!IMPORTANT]
+> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="tab-focus"></a>タブ フォーカス
 
@@ -268,6 +307,6 @@ wt new-tab "cmd" `; split-pane -p "Windows PowerShell" `; split-pane -H wsl.exe
 wt --% new-tab cmd ; split-pane -p "Windows PowerShell" ; split-pane -H wsl.exe
 ```
 
-どちらの例でも、新しく作成される Windows ターミナル ウィンドウでは、指定したすべてのコマンド ライン引数が正しく解析されてウィンドウが作成されます。
+どちらの例でも、新しく作成される Windows ターミナル ウィンドウでは、指定したすべてのコマンドライン引数が正しく解析されてウィンドウが作成されます。
 
 ただし、新しく作成されたターミナル ウィンドウが閉じられるまで待ってから、PowerShell に制御が返されるため、現在は、これらの方法は推奨 "_されません_"。 既定では、PowerShell は常に、Windows ストア アプリケーション (Windows ターミナルなど) が終了するまで待ってからプロンプトに戻ります。 これは、すぐにプロンプトに戻るコマンド プロンプトの動作とは異なることに注意してください。

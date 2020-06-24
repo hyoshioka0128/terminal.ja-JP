@@ -3,18 +3,18 @@ title: Windows ターミナルのグローバル設定
 description: Windows ターミナル内でグローバル設定をカスタマイズする方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
-ms.date: 05/19/2020
+ms.date: 06/18/2020
 ms.topic: how-to
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: 3cbe4b2b99f8115ff4eeaab5f525de393d7e5eb1
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: ba3197bb8b9466d37c01432b60314a7a00227898
+ms.sourcegitcommit: 91a802863cd0730d2e364377ffe44f819a66ff2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415957"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994295"
 ---
-# <a name="global-settings-in-the-windows-terminal"></a>Windows ターミナルでのグローバル設定
+# <a name="global-settings-in-windows-terminal"></a>Windows ターミナルでのグローバル設定
 
 以下に示すプロパティは、プロファイルの設定に関係なく、ターミナル ウィンドウ全体に影響します。 これらは、settings.json ファイルのルートに配置する必要があります。
 
@@ -26,9 +26,12 @@ ms.locfileid: "83415957"
 
 **必須かどうか:** 必須
 
-**値:** 文字列としての GUID
+**値:** GUID またはプロファイル名を表す文字列
 
 **既定値:** PowerShell の GUID
+
+> [!IMPORTANT]
+> `defaultProfile` のプロファイル名は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 <br />
 
@@ -103,13 +106,13 @@ ___
 
 :::row:::
 :::column span="":::
-タブの幅を設定します。 `"equal"` を指定すると、各タブの幅が同じになります。 `"titleLength"` を指定すると、各タブのサイズはタイトルの長さになります。
+タブの幅を設定します。 `"equal"` を指定すると、各タブの幅が同じになります。 `"titleLength"` を指定すると、各タブのサイズはタイトルの長さになります。 `"compact"` は、すべての非アクティブなタブをアイコンの幅に縮小し、アクティブなタブのフル タイトルを表示するための領域を増やします。
 
 **プロパティ名:** `tabWidthMode`
 
 **必須かどうか:** オプション
 
-**値:** `"equal"`、`"titleLength"`
+**値:** `"equal"`、`"titleLength"`、`"compact"`
 
 **既定値:** `"equal"`
 
@@ -119,6 +122,9 @@ ___
 
 :::column-end:::
 :::row-end:::
+
+> [!IMPORTANT]
+> `"compact"` の設定は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="hide-close-all-tabs-popup"></a>すべてのタブを閉じるポップアップを非表示にする
 
@@ -147,17 +153,35 @@ ___
 
 ## <a name="launch-settings"></a>起動の設定
 
-### <a name="launch-maximized"></a>起動時の最大化
+### <a name="launch-on-startup-preview"></a>スタートアップ時に起動 ([プレビュー](https://aka.ms/terminal-preview/))
 
-起動時に、ターミナルを最大化して画面全体に表示するか、またはウィンドウ内に表示するかを定義します。
+`true` に設定すると、スタートアップ時に Windows ターミナルを起動できるようになります。 これを `false` に設定すると、スタートアップ タスクのエントリが無効になります。 注: Windows ターミナル スタートアップ タスクのエントリが組織のポリシーまたはユーザーの操作によって無効にされている場合、この設定は効果がありません。
+
+**プロパティ名:** `startOnUserLogin`
+
+**必須かどうか:** オプション
+
+**値:** `true`、`false`
+
+**既定値:** `false`
+
+> [!IMPORTANT]
+> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+
+### <a name="launch-size"></a>起動サイズ
+
+起動時に、ターミナルを最大化して全画面で表示するか、ウィンドウ内に表示するかを定義します。
 
 **プロパティ名:** `launchMode`
 
 **必須かどうか:** オプション
 
-**値:** `"default"`、`"maximized"`
+**値:** `"default"`、`"maximized"`、`"fullscreen"`
 
 **既定値:** `"default"`
+
+> [!IMPORTANT]
+> `"fullscreen"` の設定は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="launch-position"></a>起動時の位置
 
@@ -316,3 +340,35 @@ ___
 
 :::column-end:::
 :::row-end:::
+
+<br />
+
+___
+
+## <a name="rendering-settings"></a>レンダリング設定
+
+レンダリング設定の変更を検討している場合、[トラブルシューティング ページ](./../troubleshooting.md#the-text-is-blurry)にある追加情報を参考にしてください。
+
+### <a name="screen-redrawing"></a>画面の再描画
+
+`true` に設定されている場合、ターミナルでは各フレームの画面全体を再描画します。 `false` に設定されている場合、フレーム間の画面の更新のみが表示されます。
+
+**プロパティ名:** `experimental.rendering.forceFullRepaint`
+
+**必須かどうか:** オプション
+
+**値:** `true`、`false`
+
+**既定値:** `false`
+
+### <a name="software-rendering"></a>ソフトウェア レンダリング
+
+`true` に設定されている場合、ターミナルでは、ハードウェア レンダラーの代わりに ソフトウェア レンダラー (WARP) を使用します。
+
+**プロパティ名:** `experimental.rendering.software`
+
+**必須かどうか:** オプション
+
+**値:** `true`、`false`
+
+**既定値:** `false`

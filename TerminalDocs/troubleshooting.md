@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: overview
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: 29d3ce72210c30fcbf38393d733c6157670465bb
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: ce2fe1e2efb26fe413b23a4e7ab08dcf0e0ed8dc
+ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415877"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84720078"
 ---
 # <a name="troubleshooting-in-windows-terminal"></a>Windows ターミナルでのトラブルシューティング
 
@@ -44,11 +44,11 @@ Windows 10 バージョン 1903 以降では、`\\wsl$\` プレフィックス�
 
 ## <a name="command-line-arguments-in-powershell"></a>PowerShell のコマンド ライン引数
 
-PowerShell でコマンド ライン引数を操作する方法については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
+PowerShell でコマンドライン引数を操作する方法については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
 
 ## <a name="command-line-arguments-in-wsl"></a>WSL のコマンド ライン引数
 
-WSL でコマンド ライン引数を操作する方法については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
+WSL でコマンドライン引数を操作する方法については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
 
 ## <a name="problem-setting-startingdirectory"></a>問題の設定 `startingDirectory`
 
@@ -71,3 +71,7 @@ WSL でコマンド ライン引数を操作する方法については、[コ�
 [キーボード レイアウトの切り替え] オプションを [割り当てられていません] (または <kbd>ctrl+shift</kbd>) に変更し、 **[OK]** 、 **[適用]** の順に選択します。 <kbd>ctrl+shift+0</kbd> はキー バインドとして機能するようになり、ターミナルに渡されます。
 
 一方、複数の入力言語に対してこのホットキー機能を使用する場合は、settings.json ファイルで[独自のカスタム キー バインドを構成](./customize-settings/key-bindings.md)できます。
+
+## <a name="the-text-is-blurry"></a>テキストがぼやけている
+
+一部のディスプレイ ドライバーとハードウェアの組み合わせでは、スクロールやダーティ領域の処理で、前のフレームのデータがぼやけてしまいます。 この問題を軽減するには、[これらのグローバル レンダリングの設定](./customize-settings/global-settings.md#rendering-settings)の組み合わせを追加して、ターミナル テキスト レンダラーによるハードウェアの負荷を軽減します。

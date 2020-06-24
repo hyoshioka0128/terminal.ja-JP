@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: quickstart
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: 901e3a0f447cdfe19a69ee43c7f76ed529d87108
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: e804f94643835b2286e1d7aa11c84334c4223889
+ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415847"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84720108"
 ---
 # <a name="install-and-set-up-windows-terminal"></a>Windows ターミナルをインストールしてセットアップする
 
@@ -48,7 +48,7 @@ Windows ターミナルの設定をカスタマイズするには、ドロップ
 
 ## <a name="command-line-arguments"></a>コマンド ライン引数
 
-コマンド ライン引数を使用すると、特定の構成でターミナルを起動できます。 これらの引数を使用すると、カスタム プロファイル設定が適用された特定のタブとペインでターミナルを開くことができます。 コマンド ライン引数の詳細については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
+コマンドライン引数を使用すると、特定の構成でターミナルを起動できます。 これらの引数を使用すると、カスタム プロファイル設定が適用された特定のタブとペインでターミナルを開くことができます。 コマンドライン引数の詳細については、[コマンド ライン引数に関するページ](./command-line-arguments.md)を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 

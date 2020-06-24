@@ -6,12 +6,12 @@ ms.author: cinnamon
 ms.date: 05/19/2020
 ms.topic: how-to
 ms.service: terminal
-ms.openlocfilehash: 94932d71e6543a83650e2e2a5febcb0206e22548
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: a0bc6ecfb337ab11414210fd4d3fe6cd565ad5bf
+ms.sourcegitcommit: a489b75e14e2c123bf6b4ac2a15ff85b515564be
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83416337"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "83553254"
 ---
 # <a name="how-to-search-in-windows-terminal"></a>Windows ターミナルでの検索方法
 

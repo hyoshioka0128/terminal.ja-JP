@@ -3,18 +3,18 @@ title: Windows ターミナル プロファイルの設定
 description: Windows ターミナル内の個々のプロファイルをカスタマイズする方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
-ms.date: 05/19/2020
+ms.date: 06/18/2020
 ms.topic: how-to
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: 309fb40736718df7d1670a7376806b70ef0e35fe
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: ad7121f9cd6583562c03bf0e35d2928f46fe5d91
+ms.sourcegitcommit: 91a802863cd0730d2e364377ffe44f819a66ff2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83416087"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994391"
 ---
-# <a name="profile-settings-in-the-windows-terminal"></a>Windows ターミナルでのプロファイル設定
+# <a name="profile-settings-in-windows-terminal"></a>Windows ターミナルでのプロファイル設定
 
 以下に示す設定は、それぞれ一意のプロファイルに固有のものです。 設定を自分のすべてのプロファイルに適用する場合は、ご自分の settings.json ファイル内のプロファイルの一覧の上にある `defaults` セクションに追加できます。
 
@@ -80,6 +80,9 @@ ___
 **既定値:** `"%USERPROFILE%"`
 
 <br />
+
+> [!NOTE]
+> インストールされている WSL ディストリビューションを開く開始ディレクトリを設定する際に、"startingDirectory": "//wsl$/<distro name>" の形式を使用し、お使いのディストリビューションの名前に置き換える必要があります。 たとえば、"startingDirectory": "//wsl$/Ubuntu-20.04" のようになります。
 
 ___
 
@@ -176,6 +179,21 @@ ___
 
 **既定値:** `12`
 
+### <a name="font-weight-preview"></a>フォントの太さ ([プレビュー](https://aka.ms/terminal-preview/))
+
+これにより、プロファイルのフォントの太さ (ストロークの明るさまたは太さ) が設定されます。
+
+**プロパティ名:** `fontWeight`
+
+**必須かどうか:** オプション
+
+**受け入れ可能:** `"normal"`、`"thin"`、`"extra-light"`、`"light"`、`"semi-light"`、`"medium"`、`"semi-bold"`、`"bold"`、`"extra-bold"`、`"black"`、`"extra-black"`、OpenType フォントの太さの数値表記に対応する整数
+
+**既定値:** `"normal"`
+
+> [!IMPORTANT]
+> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+
 ### <a name="padding"></a>余白
 
 :::row:::
@@ -248,6 +266,27 @@ ___
 **必須かどうか:** オプション
 
 **受け入れ可能:** 25 から 100 までの整数
+
+<br />
+
+___
+
+## <a name="keyboard-settings"></a>キーボード設定
+
+### <a name="altgr-aliasing-preview"></a>AltGr エイリアシング ([プレビュー](https://aka.ms/terminal-preview/))
+
+これにより、Windows ターミナルで <kbd>ctrl+alt</kbd> を <kbd>AltGr</kbd> のエイリアスとして扱うかどうかを制御できます。
+
+**プロパティ名:** `altGrAliasing`
+
+**必須かどうか:** オプション
+
+**値:** `true`、`false`
+
+**既定値:** `true`
+
+> [!IMPORTANT]
+> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 <br />
 

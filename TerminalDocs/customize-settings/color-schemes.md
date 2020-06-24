@@ -7,14 +7,14 @@ ms.date: 05/19/2020
 ms.topic: how-to
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: 4c4b602f2d8d6e3da20ef0b26845517e4512fd87
-ms.sourcegitcommit: bb5b7fd7db4b81e0d44e060989dc16b6775c802a
+ms.openlocfilehash: 9f7e6133a08a21c3b77689cd8dce32dacbf80351
+ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83415917"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84720138"
 ---
-# <a name="color-schemes-in-the-windows-terminal"></a>Windows ターミナルでの配色
+# <a name="color-schemes-in-windows-terminal"></a>Windows ターミナルでの配色
 
 ## <a name="creating-your-own-color-scheme"></a>独自の配色を作成する
 
@@ -25,7 +25,7 @@ ms.locfileid: "83415917"
     "name" : "Campbell",
 
     "cursorColor": "#FFFFFF",
-    "selectionBackground": "#",
+    "selectionBackground": "#FFFFFF",
 
     "background" : "#0C0C0C",
     "foreground" : "#CCCCCC",
@@ -57,7 +57,7 @@ ___
 
 ## <a name="included-color-schemes"></a>含まれる配色
 
-Windows ターミナルの defaults.json ファイルには、以下の配色が含まれています。このファイルには、<kbd>Alt</kbd> キーを押しながら設定ボタンを選択することでアクセスできます。 いずれかのコマンド ライン プロファイルで配色を設定する場合は、配色の `name` を値として `colorScheme` プロパティを追加します。
+Windows ターミナルの defaults.json ファイルには、以下の配色が含まれています。このファイルには、<kbd>Alt</kbd> キーを押しながら設定ボタンを選択することでアクセスできます。 いずれかのコマンドライン プロファイルで配色を設定する場合は、配色の `name` を値として `colorScheme` プロパティを追加します。
 
 ```json
 "colorScheme": "COLOR SCHEME NAME"

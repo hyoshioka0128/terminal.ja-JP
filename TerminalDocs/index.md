@@ -7,25 +7,24 @@ ms.date: 05/19/2020
 ms.topic: overview
 ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: ab29130e34e6d3adbda37a002a03383211d27bce
-ms.sourcegitcommit: a77ad8aec5bbeba1e58a92c49dc2ebd67a426ae7
-ms.translationtype: HT
+ms.openlocfilehash: abc0397c3f26da92980377aac2df466fe1bf190e
+ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83866364"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84720118"
 ---
 # <a name="what-is-windows-terminal"></a>Windows ターミナルとは
 
-Windows ターミナルは、コマンド プロンプト、PowerShell、Linux 用 Windows サブシステム (WSL) などのコマンド ライン ツールとシェルのユーザー向けの最新のターミナル アプリケーションです。 主な機能には、複数のタブ、ペイン、Unicode および UTF-8 文字のサポート、GPU で高速化されたテキスト レンダリング エンジン、独自のテーマを作成したり、テキスト、色、背景、およびショートカット キーのバインドをカスタマイズしたりする機能があります。
+Windows ターミナルは、コマンド プロンプト、PowerShell、Linux 用 Windows サブシステム (WSL) などのコマンドライン ツールとシェルのユーザー向けの最新のターミナル アプリケーションです。 主な機能には、複数のタブ、ペイン、Unicode および UTF-8 文字のサポート、GPU で高速化されたテキスト レンダリング エンジン、独自のテーマを作成したり、テキスト、色、背景、およびショートカット キーのバインドをカスタマイズしたりする機能があります。
 
 ![Windows ターミナルのスクリーンショット](./images/overview.png)
 
 > [!NOTE]
 > [コンソール、ターミナル、シェルの違いとは](https://www.hanselman.com/blog/WhatsTheDifferenceBetweenAConsoleATerminalAndAShell.aspx) Scott Hanselman の説明をお読みください。
 
-## <a name="multiple-profiles-supporting-a-variety-of-command-line-applications"></a>さまざまなコマンド ライン アプリケーションをサポートする複数のプロファイル
+## <a name="multiple-profiles-supporting-a-variety-of-command-line-applications"></a>さまざまなコマンドライン アプリケーションをサポートする複数のプロファイル
 
-コマンド ライン インターフェイスを持つ任意のアプリケーションを Windows ターミナル内で実行できます。 これには、PowerShell およびコマンド プロンプトから Azure Cloud Shell、Ubuntu や Oh-My-Zsh などの任意の WSL ディストリビューションまで、あらゆるものが含まれます。
+コマンドライン インターフェイスを持つ任意のアプリケーションを Windows ターミナル内で実行できます。 これには、PowerShell およびコマンド プロンプトから Azure Cloud Shell、Ubuntu や Oh-My-Zsh などの任意の WSL ディストリビューションまで、あらゆるものが含まれます。
 
 ## <a name="customized-schemes-and-configurations"></a>カスタマイズされたスキームと構成
 
@@ -45,7 +44,7 @@ Windows ターミナルでは、絵文字やさまざまな言語の文字など
 
 ## <a name="gpu-accelerated-text-rendering"></a>GPU で高速化されたテキスト レンダリング
 
-Windows ターミナルではテキストのレンダリングに GPU を使用しているため、既定の Windows コマンド ライン エクスペリエンスよりもパフォーマンスが向上します。
+Windows ターミナルではテキストのレンダリングに GPU を使用しているため、既定の Windows コマンドライン エクスペリエンスよりもパフォーマンスが向上します。
 
 ## <a name="background-image-support"></a>背景画像のサポート
 
@@ -53,7 +52,7 @@ Windows ターミナル ウィンドウ内に背景画像と gif を含めるこ
 
 ## <a name="command-line-arguments"></a>コマンド ライン引数
 
-コマンド ライン引数を使用して、特定の構成で起動するように Windows ターミナルを設定できます。 新しいタブで開くプロファイルや選択されるフォルダー ディレクトリを指定したり、分割したウィンドウ ペインでターミナルを開いたり、フォーカスするタブを選択したりすることができます。
+コマンドライン引数を使用して、特定の構成で起動するように Windows ターミナルを設定できます。 新しいタブで開くプロファイルや選択されるフォルダー ディレクトリを指定したり、分割したウィンドウ ペインでターミナルを開いたり、フォーカスするタブを選択したりすることができます。
 
 たとえば、左側のペインでコマンド プロンプト プロファイルを実行し、右側のペインを PowerShell と WSL を実行する既定のプロファイルとの間で分割した、3 つのペインがある PowerShell から Windows ターミナルを開くには、次のように入力します。
 

@@ -24,6 +24,8 @@
       href: panes.md
     - name: Cascadia Code
       href: cascadia-code.md
+    - name: ヒントとテクニック
+      href: tips-and-tricks.md
     - name: チュートリアル
       items:
         - name: Powerline の設定

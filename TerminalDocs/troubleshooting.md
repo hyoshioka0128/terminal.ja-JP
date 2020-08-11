@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのトラブルシューティング
-description: Windows ターミナルでの一般的な障害の修正について説明します。
+title: Windows Terminal のトラブルシューティング
+description: Windows Terminal での一般的な障害の修正について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -14,9 +14,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/11/2020
 ms.locfileid: "84720078"
 ---
-# <a name="troubleshooting-in-windows-terminal"></a>Windows ターミナルでのトラブルシューティング
+# <a name="troubleshooting-in-windows-terminal"></a>Windows Terminal でのトラブルシューティング
 
-このガイドでは、Windows ターミナルを使用するときに発生する可能性のある一般的なエラーと障害について説明します。
+このガイドでは、Windows Terminal を使用するときに発生する可能性のある一般的なエラーと障害について説明します。
 
 ## <a name="set-your-wsl-distribution-to-start-in-the-home--directory-when-launched"></a>起動時にホーム `~` ディレクトリで開始するように WSL ディストリビューションを設定します
 
@@ -54,11 +54,11 @@ WSL でコマンドライン引数を操作する方法については、[コマ
 
 プロファイルで `startingDirectory` が無視されている場合は、まず、settings.json の構文が正しいことを確認してください。 この構文を確認するために、`"$schema": "https://aka.ms/terminal-profiles-schema"` が自動的に挿入されます。 [Visual Studio Code](https://code.visualstudio.com/download) などの一部のアプリケーションでは、挿入されたスキーマを使用して、編集を行うときに json ファイルを検証できます。
 
-設定が正しい場合は、ターミナルの開始ディレクトリを個別に設定するスタートアップ スクリプトを実行している可能性があります。 たとえば、PowerShell には独自のプロファイルの概念があります。 開始ディレクトリを変更すると、Windows ターミナルで定義されている設定よりも優先されます。
+設定が正しい場合は、ターミナルの開始ディレクトリを個別に設定するスタートアップ スクリプトを実行している可能性があります。 たとえば、PowerShell には独自のプロファイルの概念があります。 開始ディレクトリを変更すると、Windows Terminal で定義されている設定よりも優先されます。
 
 または、`commandline` プロファイル設定を使用してスクリプトを実行している場合は、そこに場所を設定している可能性があります。 PowerShell プロファイルと同様に、そこのコマンドが `startingDirectory` プロファイル設定よりも優先されます。
 
-`startingDirectory` の目的は、指定されたディレクトリで新しい Windows ターミナル インスタンスを起動することです。 ターミナルで、そのディレクトリを変更するコードが実行されている場合は、調べてみることをお勧めします。
+`startingDirectory` の目的は、指定されたディレクトリで新しい Windows Terminal インスタンスを起動することです。 ターミナルで、そのディレクトリを変更するコードが実行されている場合は、調べてみることをお勧めします。
 
 ## <a name="ctrl-does-not-increase-the-font-size"></a>Ctrl+= でフォント サイズが大きくならない
 

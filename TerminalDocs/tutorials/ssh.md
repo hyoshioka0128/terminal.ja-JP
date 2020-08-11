@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナル SSH
-description: このチュートリアルでは、Windows ターミナルで SSH 接続を設定する方法について説明します。
+title: Windows Terminal での SSH
+description: このチュートリアルでは、Windows Terminal での SSH 接続を設定する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,15 +13,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/26/2020
 ms.locfileid: "83856340"
 ---
-# <a name="tutorial-ssh-in-windows-terminal"></a>チュートリアル: Windows ターミナルでの SSH
+# <a name="tutorial-ssh-in-windows-terminal"></a>チュートリアル: Windows Terminal での SSH
 
-Windows 10 には、Windows ターミナルで使用できる組み込みの SSH クライアントが用意されています。
+Windows 10 には、Windows Terminal で使用できる組み込みの SSH クライアントが用意されています。
 
-このチュートリアルでは、SSH を使用する Windows ターミナルでプロファイルを設定する方法について説明します。
+このチュートリアルでは、SSH を使用する Windows Terminal でプロファイルを設定する方法について説明します。
 
 ## <a name="create-a-profile"></a>プロファイルを作成する
 
-`ssh user@machine` を実行すると、コマンド プロンプトで SSH セッションを開始できます。パスワードを入力するように求められます。 この設定をスタートアップ時に実行する Windows ターミナルプロファイルを作成するには、`commandline` 設定を settings.json ファイルのプロファイルに追加します。
+`ssh user@machine` を実行すると、コマンド プロンプトで SSH セッションを開始できます。パスワードを入力するように求められます。 この設定をスタートアップ時に実行する Windows Terminal プロファイルを作成するには、`commandline` 設定を settings.json ファイルのプロファイルに追加します。
 
 ```js
 "commandline": "ssh cinnamon@roll"
@@ -29,7 +29,7 @@ Windows 10 には、Windows ターミナルで使用できる組み込みの SSH
 
 ## <a name="specify-starting-directory"></a>開始ディレクトリを指定する
 
-Windows ターミナルによって起動される ssh セッションの開始ディレクトリを指定するには、次のコマンドを使用します。
+Windows Terminal によって起動される ssh セッションの開始ディレクトリを指定するには、次のコマンドを使用します。
 
 ```bash
 "commandline": "ssh -t bob@foo \"cd /data/bob && exec bash -l\""

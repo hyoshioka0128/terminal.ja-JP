@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナル Powerline のセットアップ
-description: このチュートリアルでは、Windows ターミナルで Powerline を設定する方法について説明します。
+title: Windows Terminal Powerline のセットアップ
+description: このチュートリアルでは、Windows Terminal で Powerline を設定する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/26/2020
 ms.locfileid: "83856350"
 ---
-# <a name="tutorial-set-up-powerline-in-windows-terminal"></a>チュートリアル: Windows ターミナルで Powerline をセットアップする
+# <a name="tutorial-set-up-powerline-in-windows-terminal"></a>チュートリアル: Windows Terminal で Powerline をセットアップする
 
 Powerline は、Git 状態の色分けとプロンプトを提供する、カスタマイズされたコマンド プロンプト エクスペリエンスを提供します。
 

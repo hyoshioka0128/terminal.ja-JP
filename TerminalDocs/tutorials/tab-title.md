@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのタブのタイトルの設定
-description: このチュートリアルでは、Windows ターミナルでタブのタイトルを設定する方法について説明します。
+title: Windows Terminal のタブのタイトルの設定
+description: このチュートリアルでは、Windows Terminal でタブのタイトルを設定する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/15/2020
 ms.locfileid: "83416467"
 ---
-# <a name="tutorial-configure-tab-titles-in-windows-terminal"></a>チュートリアル: Windows ターミナルでタブのタイトルを構成する
+# <a name="tutorial-configure-tab-titles-in-windows-terminal"></a>チュートリアル: Windows Terminal でタブのタイトルを構成する
 
 既定では、タブのタイトルはシェルのタイトルに設定されます。 タブが複数のペインで構成されている場合、タブのタイトルは、現在フォーカスがあるペインのタイトルに設定されます。 タブのタイトルとして設定する内容をカスタマイズする場合は、このチュートリアルに従ってください。
 
@@ -62,7 +62,7 @@ echo -ne "\033]0;New Title\a"
 
 シェルは自身のタイトルを制御しているため、いつでもタブタイトルを上書きすることができます。 たとえば、PowerShell の `posh-git` モジュールでは、Git リポジトリに関する情報がタイトルに追加されます。
 
-Windows ターミナルでは、プロファイルの `suppressApplicationTitle` を `true` に設定することによって、タイトルの変更を抑制できます。 これにより、プロファイルの新しいインスタンスによって、表示されるタイトルが `tabTitle` に設定されます。 `tabTitle` が設定されていない場合、表示されるタイトルはプロファイルの `name` に設定されます。
+Windows Terminal では、プロファイルの `suppressApplicationTitle` を `true` に設定することによって、タイトルの変更を抑制できます。 これにより、プロファイルの新しいインスタンスによって、表示されるタイトルが `tabTitle` に設定されます。 `tabTitle` が設定されていない場合、表示されるタイトルはプロファイルの `name` に設定されます。
 
 これにより、タブに表示されている表示タイトルからシェルのタイトルが分離されることに注意してください。タイトルが設定されているシェルの変数を読み取ると、タブのタイトルと異なる場合があります。
 

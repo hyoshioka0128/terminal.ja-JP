@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのキー バインド
-description: Windows ターミナルのカスタム キー バインドを作成する方法について説明します。
+title: Windows Terminal のキー バインド
+description: Windows Terminal のカスタム キー バインドを作成する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -14,9 +14,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "84994291"
 ---
-# <a name="custom-key-bindings-in-windows-terminal"></a>Windows ターミナルのカスタム キー バインド
+# <a name="custom-key-bindings-in-windows-terminal"></a>Windows Terminal のカスタム キー バインド
 
-Windows ターミナル内にカスタム キー バインド (キーボード ショートカット) を作成し、キーボードを使用してターミナルとの対話方法を制御することができます。
+Windows Terminal 内にカスタム キー バインド (キーボード ショートカット) を作成し、キーボードを使用してターミナルとの対話方法を制御することができます。
 
 ## <a name="key-binding-formats"></a>キー バインドの形式
 
@@ -175,7 +175,7 @@ ___
 | `target` | オプション | `"settingsFile"`、`"defaultsFile"`、`"allFiles"` | 開く設定ファイルです。 |
 
 > [!IMPORTANT]
-> `target` フィールドは、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `target` フィールドは、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="toggle-full-screen"></a>全画面表示の切り替え
 

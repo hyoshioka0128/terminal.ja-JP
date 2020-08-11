@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナル ペイン
-description: Windows ターミナルでペインを分割する方法について説明します。
+title: Windows Terminal ペイン
+description: Windows Terminal でペインを分割する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "84994322"
 ---
-# <a name="panes-in-windows-terminal"></a>Windows ターミナルのペイン
+# <a name="panes-in-windows-terminal"></a>Windows Terminal のペイン
 
 ペインでは、同じタブ内で複数のコマンドライン アプリケーションを並べて同時に実行することができます。これにより、タブを切り替える必要が最小限に抑えられ、一度に複数のプロンプトを表示することができます。
 
@@ -21,7 +21,7 @@ ms.locfileid: "84994322"
 
 ### <a name="using-the-keyboard"></a>キーボードを使用する
 
-Windows ターミナルで、垂直方向または水平方向の新しいペインを作成できます。 垂直方向に分割すると、フォーカスがあるペインの右側に新しいペインが開かれ、水平方向に分割すると、フォーカスがあるペインの下に新しいペインが開かれます。 既定のプロファイルの新しい垂直ペインを作成するには、<kbd>alt+shift+plus</kbd> を入力します。 既定のプロファイルの水平ペインの場合は、<kbd>alt+shift+-</kbd> と入力します。
+Windows Terminal で、垂直方向または水平方向の新しいペインを作成できます。 垂直方向に分割すると、フォーカスがあるペインの右側に新しいペインが開かれ、水平方向に分割すると、フォーカスがあるペインの下に新しいペインが開かれます。 既定のプロファイルの新しい垂直ペインを作成するには、<kbd>alt+shift+plus</kbd> を入力します。 既定のプロファイルの水平ペインの場合は、<kbd>alt+shift+-</kbd> と入力します。
 
 ![Windows ターミナルのペインの作成](./images/open-panes.gif)
 _構成:[Raspberry Ubuntu](./custom-terminal-gallery/raspberry-ubuntu.md)_
@@ -41,7 +41,7 @@ _構成:[Raspberry Ubuntu](./custom-terminal-gallery/raspberry-ubuntu.md)_
 ![Windows ターミナルのドロップダウン ペイン](./images/alt-click-pane.gif)
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="switching-between-panes"></a>ペインを切り替える
 

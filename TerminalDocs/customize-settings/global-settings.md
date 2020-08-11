@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのグローバル設定
-description: Windows ターミナル内でグローバル設定をカスタマイズする方法について説明します。
+title: Windows Terminal のグローバル設定
+description: Windows Terminal 内でグローバル設定をカスタマイズする方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "84994295"
 ---
-# <a name="global-settings-in-windows-terminal"></a>Windows ターミナルでのグローバル設定
+# <a name="global-settings-in-windows-terminal"></a>Windows Terminal でのグローバル設定
 
 以下に示すプロパティは、プロファイルの設定に関係なく、ターミナル ウィンドウ全体に影響します。 これらは、settings.json ファイルのルートに配置する必要があります。
 
@@ -31,7 +31,7 @@ ms.locfileid: "84994295"
 **既定値:** PowerShell の GUID
 
 > [!IMPORTANT]
-> `defaultProfile` のプロファイル名は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `defaultProfile` のプロファイル名は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 <br />
 
@@ -124,7 +124,7 @@ ___
 :::row-end:::
 
 > [!IMPORTANT]
-> `"compact"` の設定は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `"compact"` の設定は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="hide-close-all-tabs-popup"></a>すべてのタブを閉じるポップアップを非表示にする
 
@@ -155,7 +155,7 @@ ___
 
 ### <a name="launch-on-startup-preview"></a>スタートアップ時に起動 ([プレビュー](https://aka.ms/terminal-preview/))
 
-`true` に設定すると、スタートアップ時に Windows ターミナルを起動できるようになります。 これを `false` に設定すると、スタートアップ タスクのエントリが無効になります。 注: Windows ターミナル スタートアップ タスクのエントリが組織のポリシーまたはユーザーの操作によって無効にされている場合、この設定は効果がありません。
+`true` に設定すると、スタートアップ時に Windows Terminal を起動できるようになります。 これを `false` に設定すると、スタートアップ タスクのエントリが無効になります。 注: Windows Terminal スタートアップ タスクのエントリが組織のポリシーまたはユーザーの操作によって無効にされている場合、この設定は効果がありません。
 
 **プロパティ名:** `startOnUserLogin`
 
@@ -166,7 +166,7 @@ ___
 **既定値:** `false`
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="launch-size"></a>起動サイズ
 
@@ -181,7 +181,7 @@ ___
 **既定値:** `"default"`
 
 > [!IMPORTANT]
-> `"fullscreen"` の設定は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `"fullscreen"` の設定は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="launch-position"></a>起動時の位置
 
@@ -248,7 +248,7 @@ ___
 
 ### <a name="set-the-text-in-the-title-bar"></a>タイトル バーのテキストを設定する
 
-これが `true` に設定されていると、選択されているタブのタイトルがタイトル バーに表示されます。`false` に設定すると、タイトル バーには "Windows ターミナル" と表示されます。 この設定を変更すると、新しいターミナル インスタンスを開始する必要があることに注意してください。
+これが `true` に設定されていると、選択されているタブのタイトルがタイトル バーに表示されます。`false` に設定すると、タイトル バーには "Windows Terminal" と表示されます。 この設定を変更すると、新しいターミナル インスタンスを開始する必要があることに注意してください。
 
 **プロパティ名:** `showTerminalTitleInTitlebar`
 

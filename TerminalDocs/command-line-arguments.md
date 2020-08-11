@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのコマンドライン引数
-description: Windows ターミナルのコマンドライン引数を作成する方法について説明します。
+title: Windows Terminal のコマンドライン引数
+description: Windows Terminal のコマンドライン引数を作成する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -13,12 +13,12 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "84994384"
 ---
-# <a name="using-command-line-arguments-for-windows-terminal"></a>Windows ターミナルにコマンド ライン引数を使用する
+# <a name="using-command-line-arguments-for-windows-terminal"></a>Windows Terminal にコマンド ライン引数を使用する
 
-`wt.exe` を使用すると、コマンド ラインから Windows ターミナルの新しいインスタンスを開くことができます。 代わりに、実行エイリアス `wt` を使用することもできます。
+`wt.exe` を使用すると、コマンド ラインから Windows Terminal の新しいインスタンスを開くことができます。 代わりに、実行エイリアス `wt` を使用することもできます。
 
 > [!NOTE]
-> [GitHub](https://github.com/microsoft/terminal) のソース コードから Windows ターミナルをビルドした場合、`wtd.exe` または `wtd` を使用してそのビルドを開くことができます。
+> [GitHub](https://github.com/microsoft/terminal) のソース コードから Windows Terminal をビルドした場合、`wtd.exe` または `wtd` を使用してそのビルドを開くことができます。
 
 ![分割ペインの Windows ターミナル コマンドライン引数](./images/terminal-command-args.gif)
 
@@ -43,7 +43,7 @@ wt [options] [command ; ]
 | `--fullscreen`、`-F` | ターミナルを全画面で起動します。 |
 
 > [!IMPORTANT]
-> `--maximized`、`-M` と `--fullscreen`、`-F` は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `--maximized`、`-M` と `--fullscreen`、`-F` は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 | コマンド | パラメーター | 説明 |
 | ------- | ---------- | ----------- |
@@ -52,7 +52,7 @@ wt [options] [command ; ]
 | `focus-tab` | `--target, -t tab-index` | 特定のタブにフォーカスを設定します。 |
 
 > [!IMPORTANT]
-> `--title` は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> `--title` は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="command-line-argument-examples"></a>コマンド ライン引数の例
 
@@ -86,7 +86,7 @@ cmd.exe /c "wt.exe" -p "Ubuntu-18.04"
 ---
 <!-- End tab selectors.  -->
 
- `-p` フラグを使用して、開く必要がある Windows ターミナル プロファイルを指定します。 "Ubuntu-18.04" を、インストールされているターミナル プロファイルの名前に置き換えます。 このようにすると、常に新しいウィンドウが開きます。 Windows ターミナルでは、既存のインスタンスで新しいタブまたはペインを開くことはまだできません。
+ `-p` フラグを使用して、開く必要がある Windows Terminal プロファイルを指定します。 "Ubuntu-18.04" を、インストールされているターミナル プロファイルの名前に置き換えます。 このようにすると、常に新しいウィンドウが開きます。 Windows Terminal では、既存のインスタンスで新しいタブまたはペインを開くことはまだできません。
 
 ### <a name="target-a-directory"></a>ディレクトリをターゲットにする
 
@@ -235,7 +235,7 @@ cmd.exe /c "wt.exe" --title tabname1 \; new-tab -p "Ubuntu-18.04" --title tabnam
 <!-- End tab selectors.  -->
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="tab-focus"></a>タブ フォーカス
 
@@ -267,7 +267,7 @@ cmd.exe /c "wt.exe" \; new-tab -p "Ubuntu-18.04" \; focus-tab -t 1
 
 ## <a name="examples-of-multiple-commands-from-powershell"></a>PowerShell からの複数のコマンドの例
 
-Windows ターミナルでは、`wt` コマンド ラインのコマンドを区切るための区切り記号として、セミコロン文字 `;` を使用します。 残念ながら、PowerShell では、コマンドの区切り記号としても `;` を使用します。 これを回避するには、次の方法を使用して、PowerShell から複数の `wt` コマンドを実行できます。 以下のすべての例では、3 つのペインから成る新しいターミナル ウィンドウが作成されます。コマンド プロンプトを実行するペイン、PowerShell のペイン、WSL を実行するペインです。
+Windows Terminal では、`wt` コマンド ラインのコマンドを区切るための区切り記号として、セミコロン文字 `;` を使用します。 残念ながら、PowerShell では、コマンドの区切り記号としても `;` を使用します。 これを回避するには、次の方法を使用して、PowerShell から複数の `wt` コマンドを実行できます。 以下のすべての例では、3 つのペインから成る新しいターミナル ウィンドウが作成されます。コマンド プロンプトを実行するペイン、PowerShell のペイン、WSL を実行するペインです。
 
 次の例では、`Start-Process` コマンドを使用して `wt` を実行します。 ターミナルで `Start-Process` を使用する理由について詳しくは、後の「[start を使用する](#using-start)」をご覧ください。
 
@@ -307,6 +307,6 @@ wt new-tab "cmd" `; split-pane -p "Windows PowerShell" `; split-pane -H wsl.exe
 wt --% new-tab cmd ; split-pane -p "Windows PowerShell" ; split-pane -H wsl.exe
 ```
 
-どちらの例でも、新しく作成される Windows ターミナル ウィンドウでは、指定したすべてのコマンドライン引数が正しく解析されてウィンドウが作成されます。
+どちらの例でも、新しく作成される Windows Terminal ウィンドウでは、指定したすべてのコマンドライン引数が正しく解析されてウィンドウが作成されます。
 
-ただし、新しく作成されたターミナル ウィンドウが閉じられるまで待ってから、PowerShell に制御が返されるため、現在は、これらの方法は推奨 "_されません_"。 既定では、PowerShell は常に、Windows ストア アプリケーション (Windows ターミナルなど) が終了するまで待ってからプロンプトに戻ります。 これは、すぐにプロンプトに戻るコマンド プロンプトの動作とは異なることに注意してください。
+ただし、新しく作成されたターミナル ウィンドウが閉じられるまで待ってから、PowerShell に制御が返されるため、現在は、これらの方法は推奨 "_されません_"。 既定では、PowerShell は常に、Windows ストア アプリケーション (Windows Terminal など) が終了するまで待ってからプロンプトに戻ります。 これは、すぐにプロンプトに戻るコマンド プロンプトの動作とは異なることに注意してください。

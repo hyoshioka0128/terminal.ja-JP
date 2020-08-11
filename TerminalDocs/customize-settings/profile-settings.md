@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナル プロファイルの設定
-description: Windows ターミナル内の個々のプロファイルをカスタマイズする方法について説明します。
+title: Windows Terminal プロファイルの設定
+description: Windows Terminal 内の個々のプロファイルをカスタマイズする方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "84994391"
 ---
-# <a name="profile-settings-in-windows-terminal"></a>Windows ターミナルでのプロファイル設定
+# <a name="profile-settings-in-windows-terminal"></a>Windows Terminal でのプロファイル設定
 
 以下に示す設定は、それぞれ一意のプロファイルに固有のものです。 設定を自分のすべてのプロファイルに適用する場合は、ご自分の settings.json ファイル内のプロファイルの一覧の上にある `defaults` セクションに追加できます。
 
@@ -192,7 +192,7 @@ ___
 **既定値:** `"normal"`
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ### <a name="padding"></a>余白
 
@@ -275,7 +275,7 @@ ___
 
 ### <a name="altgr-aliasing-preview"></a>AltGr エイリアシング ([プレビュー](https://aka.ms/terminal-preview/))
 
-これにより、Windows ターミナルで <kbd>ctrl+alt</kbd> を <kbd>AltGr</kbd> のエイリアスとして扱うかどうかを制御できます。
+これにより、Windows Terminal で <kbd>ctrl+alt</kbd> を <kbd>AltGr</kbd> のエイリアスとして扱うかどうかを制御できます。
 
 **プロパティ名:** `altGrAliasing`
 
@@ -286,7 +286,7 @@ ___
 **既定値:** `true`
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 <br />
 

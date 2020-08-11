@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのインストール
-description: このクイックスタートでは、Windows ターミナルをインストールして実行する方法について説明します。
+title: Windows Terminal のインストール
+description: このクイックスタートでは、Windows Terminal をインストールして実行する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -14,11 +14,11 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/11/2020
 ms.locfileid: "84720108"
 ---
-# <a name="install-and-set-up-windows-terminal"></a>Windows ターミナルをインストールしてセットアップする
+# <a name="install-and-set-up-windows-terminal"></a>Windows Terminal をインストールしてセットアップする
 
 ## <a name="installation"></a>インストール
 
-Windows ターミナルは、[Microsoft Store](https://aka.ms/terminal) からインストールできます。
+Windows Terminal は、[Microsoft Store](https://aka.ms/terminal) からインストールできます。
 
 Microsoft Store にアクセスできない場合は、[GitHub のリリース ページ](https://github.com/microsoft/terminal/releases)でビルドが公開されています。 GitHub からインストールしたターミナルの場合、新しいバージョンが公開されても自動的には更新されません。
 
@@ -42,7 +42,7 @@ WSL ディストリビューションまたは PowerShell の複数のバージ�
 
 ## <a name="configuration"></a>構成
 
-Windows ターミナルの設定をカスタマイズするには、ドロップダウン メニューの **[設定]** を選択します。 これにより、既定のテキスト エディターで `settings.json` ファイルが開きます。 (既定のテキスト エディターは、[Windows 設定](ms-settings:defaultapps)で定義されています)。
+Windows Terminal の設定をカスタマイズするには、ドロップダウン メニューの **[設定]** を選択します。 これにより、既定のテキスト エディターで `settings.json` ファイルが開きます。 (既定のテキスト エディターは、[Windows 設定](ms-settings:defaultapps)で定義されています)。
 
 ターミナルでは、アプリケーション全体に影響を与える[グローバル プロパティ](./customize-settings/global-settings.md)、各プロファイルの設定に影響する[プロファイル プロパティ](./customize-settings/profile-settings.md)、キーボードを使用してターミナルと対話できるようにする[キー バインド](./customize-settings/key-bindings.md)のカスタマイズがサポートされています。
 

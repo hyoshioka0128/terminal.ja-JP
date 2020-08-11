@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルの検索
-description: Windows ターミナルでの検索方法について説明します。
+title: Windows Terminal の検索
+description: Windows Terminal での検索方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,9 +13,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/18/2020
 ms.locfileid: "83553254"
 ---
-# <a name="how-to-search-in-windows-terminal"></a>Windows ターミナルでの検索方法
+# <a name="how-to-search-in-windows-terminal"></a>Windows Terminal での検索方法
 
-Windows ターミナルには、特定のキーワードのテキスト バッファーを調べることができる検索機能が付属しています。 これは、以前に実行したコマンドを検索したり、特定のファイル名を検索したりする場合に便利です。
+Windows Terminal には、特定のキーワードのテキスト バッファーを調べることができる検索機能が付属しています。 これは、以前に実行したコマンドを検索したり、特定のファイル名を検索したりする場合に便利です。
 
 ## <a name="using-search"></a>検索を使用する
 

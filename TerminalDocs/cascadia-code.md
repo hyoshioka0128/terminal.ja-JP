@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナル Cascadia Code
-description: さまざまな Cascadia Code フォントと、それらが Windows ターミナルでどのように機能するかについて説明します。
+title: Windows Terminal Cascadia Code
+description: さまざまな Cascadia Code フォントと、それらが Windows Terminal でどのように機能するかについて説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -15,11 +15,11 @@ ms.locfileid: "84720098"
 ---
 # <a name="cascadia-code"></a>Cascadia Code
 
-Cascadia Code は、コマンドライン アプリケーションやテキスト エディターに新鮮なエクスペリエンスを提供する、Microsoft が提供する新しい等幅フォントです。 Cascadia Code は、Windows ターミナルと共に開発されました。 このフォントは、ターミナル アプリケーションや、Visual Studio や Visual Studio Code などのテキスト エディターで使用することをお勧めします。
+Cascadia Code は、コマンドライン アプリケーションやテキスト エディターに新鮮なエクスペリエンスを提供する、Microsoft が提供する新しい等幅フォントです。 Cascadia Code は、Windows Terminal と共に開発されました。 このフォントは、ターミナル アプリケーションや、Visual Studio や Visual Studio Code などのテキスト エディターで使用することをお勧めします。
 
 ## <a name="cascadia-code-versions"></a>Cascadia Code のバージョン
 
-Cascadia Code には、合字とグリフを含む使用可能な複数のバージョンがあります。 Cascadia Code のすべてのバージョンが、[Cascadia Code GitHub リリース ページ](https://github.com/microsoft/cascadia-code/releases)からダウンロードできます。 Windows ターミナルでは、Cascadia Code と Cascadia Mono がパッケージに付属しており、既定で Cascadia Mono が使用されています。
+Cascadia Code には、合字とグリフを含む使用可能な複数のバージョンがあります。 Cascadia Code のすべてのバージョンが、[Cascadia Code GitHub リリース ページ](https://github.com/microsoft/cascadia-code/releases)からダウンロードできます。 Windows Terminal では、Cascadia Code と Cascadia Mono がパッケージに付属しており、既定で Cascadia Mono が使用されています。
 
 | フォント名 | 合字を含む | Powerline Glyph を含む |
 | --------- | ------------------ | ------------------------- |
@@ -30,7 +30,7 @@ Cascadia Code には、合字とグリフを含む使用可能な複数のバー
 
 ## <a name="powerline-and-programming-ligatures"></a>Powerline とプログラミングの合字
 
-Powerline は、一般的なコマンドライン プラグインで、プロンプトに追加情報を表示することができます。 この情報を適切に表示するために、いくつかの追加のグリフが使用されています。 コマンド プロンプトでの Powerline の設定の詳細については、[Windows ターミナルの Powerline に関するページ](./tutorials/powerline-setup.md)を参照してください。
+Powerline は、一般的なコマンドライン プラグインで、プロンプトに追加情報を表示することができます。 この情報を適切に表示するために、いくつかの追加のグリフが使用されています。 コマンド プロンプトでの Powerline の設定の詳細については、[Windows Terminal の Powerline に関するページ](./tutorials/powerline-setup.md)を参照してください。
 
 プログラミング合字は、文字を組み合わせることによって作成されるグリフです。 これらは、コードを記述するときに最適です。 合字は、"Code" のバリアントには含まれていますが、"Mono" のバリアントでは除外されています。
 

@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルレトロコマンドプロンプトの構成
-description: これは、Windows ターミナルでのレトロコマンドプロンプトの構成です。
+title: Windows Terminal レトロコマンドプロンプトの構成
+description: これは、Windows Terminal でのレトロコマンドプロンプトの構成です。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,9 +13,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/18/2020
 ms.locfileid: "83553144"
 ---
-# <a name="retro-command-prompt-in-windows-terminal"></a>Windows ターミナルでのレトロコマンドプロンプト
+# <a name="retro-command-prompt-in-windows-terminal"></a>Windows Terminal でのレトロコマンドプロンプト
 
-このプロンプトでは、 `PxPlus IBM VGA8` Windows ターミナルに含まれていないフォントが使用されています。
+このプロンプトでは、 `PxPlus IBM VGA8` Windows Terminal に含まれていないフォントが使用されています。
 
 ![Windows ターミナルレトロコマンドプロンプト](./../images/retro-command-prompt.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルのヒントとコツ
-description: このページには、Windows ターミナル エクスペリエンスの改善に役立つヒントとコツが記載されています。
+title: Windows Terminal のヒントとコツ
+description: このページには、Windows Terminal エクスペリエンスの改善に役立つヒントとコツが記載されています。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 06/18/2020
@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "85060460"
 ---
-# <a name="windows-terminal-tips-and-tricks"></a>Windows ターミナルのヒントとコツ
+# <a name="windows-terminal-tips-and-tricks"></a>Windows Terminal のヒントとコツ
 
 ## <a name="rename-a-tab-preview"></a>タブの名前変更 ([プレビュー](https://aka.ms/terminal-preview/))
 
@@ -23,7 +23,7 @@ ms.locfileid: "85060460"
 ![Windows ターミナルのタブの名前変更](./images/tab-rename.gif)
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="color-a-tab-preview"></a>タブの色付け ([プレビュー](https://aka.ms/terminal-preview/))
 
@@ -35,11 +35,11 @@ ms.locfileid: "85060460"
 > タブに背景と同じ色を設定してシームレスな外観を実現するには、16 進数フィールドを使用します。
 
 > [!IMPORTANT]
-> この機能は、[Windows ターミナル プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
+> この機能は、[Windows Terminal プレビュー](https://aka.ms/terminal-preview/)でのみ使用できます。
 
 ## <a name="zoom-with-the-mouse"></a>マウスを使用して拡大/縮小する
 
-<kbd>Ctrl</kbd> キーを押しながらスクロールすると、Windows ターミナルのテキスト ウィンドウを拡大/縮小できます。 そのターミナル セッションでは、拡大/縮小された状態が維持されます。 フォント サイズを変更する場合は、[プロファイル設定に関するページ](./customize-settings/profile-settings#text-settings)でフォント サイズ機能の詳細をご確認ください。
+<kbd>Ctrl</kbd> キーを押しながらスクロールすると、Windows Terminal のテキスト ウィンドウを拡大/縮小できます。 そのターミナル セッションでは、拡大/縮小された状態が維持されます。 フォント サイズを変更する場合は、[プロファイル設定に関するページ](./customize-settings/profile-settings#text-settings)でフォント サイズ機能の詳細をご確認ください。
 
 ## <a name="adjust-background-opacity-with-the-mouse"></a>マウスを使用して背景の不透明度を調整する
 

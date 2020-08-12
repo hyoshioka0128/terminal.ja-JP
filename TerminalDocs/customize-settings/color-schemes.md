@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルの配色
-description: Windows ターミナル用の配色を作成する方法について説明します。
+title: Windows Terminal の配色
+description: Windows Terminal 用の配色を作成する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/11/2020
 ms.locfileid: "84720138"
 ---
-# <a name="color-schemes-in-windows-terminal"></a>Windows ターミナルでの配色
+# <a name="color-schemes-in-windows-terminal"></a>Windows Terminal での配色
 
 ## <a name="creating-your-own-color-scheme"></a>独自の配色を作成する
 
@@ -57,7 +57,7 @@ ___
 
 ## <a name="included-color-schemes"></a>含まれる配色
 
-Windows ターミナルの defaults.json ファイルには、以下の配色が含まれています。このファイルには、<kbd>Alt</kbd> キーを押しながら設定ボタンを選択することでアクセスできます。 いずれかのコマンドライン プロファイルで配色を設定する場合は、配色の `name` を値として `colorScheme` プロパティを追加します。
+Windows Terminal の defaults.json ファイルには、以下の配色が含まれています。このファイルには、<kbd>Alt</kbd> キーを押しながら設定ボタンを選択することでアクセスできます。 いずれかのコマンドライン プロファイルで配色を設定する場合は、配色の `name` を値として `colorScheme` プロパティを追加します。
 
 ```json
 "colorScheme": "COLOR SCHEME NAME"

@@ -1,5 +1,5 @@
 ---
-title: Windows ターミナル Raspberry Ubuntu の構成
+title: Windows Terminal Raspberry Ubuntu の構成
 description: これは、Raspberry Ubuntu のテーマです。
 author: cinnamon-msft
 ms.author: cinnamon
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/15/2020
 ms.locfileid: "83416497"
 ---
-# <a name="raspberry-ubuntu-in-windows-terminal"></a>Windows ターミナルでの Raspberry Ubuntu
+# <a name="raspberry-ubuntu-in-windows-terminal"></a>Windows Terminal での Raspberry Ubuntu
 
 ![Windows ターミナル Raspberry Ubuntu](./../images/raspberry-ubuntu.png)
 

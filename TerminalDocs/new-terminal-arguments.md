@@ -1,6 +1,6 @@
 ---
-title: Windows ターミナルの新しいターミナル引数
-description: Windows ターミナルの新しいターミナル引数。
+title: Windows Terminal の新しいターミナル引数
+description: Windows Terminal の新しいターミナル引数。
 author: cinnamon-msft
 ms.author: cinnamon
 ms.date: 05/19/2020
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/15/2020
 ms.locfileid: "83416317"
 ---
-# <a name="new-terminal-arguments-in-the-windows-terminal"></a>Windows ターミナルの新しいターミナル引数
+# <a name="new-terminal-arguments-in-the-windows-terminal"></a>Windows Terminal の新しいターミナル引数
 
 キー バインドを使用して新しいペインまたはタブを開くときに、プロファイルの名前、guid、またはインデックスを含めることによって、使用するプロファイルを指定できます。 何も指定されていない場合は、既定のプロファイルが使用されます。 これを行うには、`profile` または `index` を引数として `splitPane` または `newTab` キー バインドに追加します。 インデックスは 0 から開始されることに注意してください。
 

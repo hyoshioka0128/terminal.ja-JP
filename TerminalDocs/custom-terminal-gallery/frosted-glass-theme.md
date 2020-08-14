@@ -1,5 +1,5 @@
 ---
-title: Windows ターミナルすりグラステーマの構成
+title: Windows Terminal すりグラステーマの構成
 description: これは、すりグラステーマのサンプル構成です。
 author: cinnamon-msft
 ms.author: cinnamon
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/15/2020
 ms.locfileid: "83416537"
 ---
-# <a name="frosted-glass-theme-in-windows-terminal"></a>Windows ターミナルのすりグラステーマ
+# <a name="frosted-glass-theme-in-windows-terminal"></a>Windows Terminal のすりグラステーマ
 
 プロンプトのスタイルは Powerline で、 `Cascadia Code PL` [Cascadia Code GitHub リリースページ](https://github.com/microsoft/cascadia-code/releases)からダウンロードできるフォントを使用しています。
 

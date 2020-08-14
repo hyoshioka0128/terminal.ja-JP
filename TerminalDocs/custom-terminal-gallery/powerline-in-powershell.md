@@ -1,5 +1,5 @@
 ---
-title: PowerShell 構成の Windows ターミナル Powerline
+title: PowerShell 構成の Windows Terminal Powerline
 description: これは、PowerShell の Powerline の構成とテーマです。
 author: cinnamon-msft
 ms.author: cinnamon
@@ -13,7 +13,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/15/2020
 ms.locfileid: "83416547"
 ---
-# <a name="powerline-in-powershell-theme-for-windows-terminal"></a>Windows ターミナルの PowerShell テーマの powerline
+# <a name="powerline-in-powershell-theme-for-windows-terminal"></a>Windows Terminal の PowerShell テーマの Powerline
 
 プロンプトのスタイルは Powerline で、 `Cascadia Code PL` [Cascadia Code GitHub リリースページ](https://github.com/microsoft/cascadia-code/releases)からダウンロードできるフォントを使用しています。
 

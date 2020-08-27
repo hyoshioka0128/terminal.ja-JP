@@ -16,12 +16,14 @@
           href: customize-settings/key-bindings.md
     - name: コマンド ライン引数
       href: command-line-arguments.md
-    - name: 動的プロファイル
-      href: dynamic-profiles.md
+    - name: コマンド パレット
+      href: command-palette.md
     - name: 検索
       href: search.md
     - name: ペイン
       href: panes.md
+    - name: 動的プロファイル
+      href: dynamic-profiles.md
     - name: Cascadia Code
       href: cascadia-code.md
     - name: ヒントとテクニック

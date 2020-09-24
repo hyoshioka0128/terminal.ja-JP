@@ -12,8 +12,8 @@
           href: customize-settings/profile-settings.md
         - name: 配色
           href: customize-settings/color-schemes.md
-        - name: ショートカット キー
-          href: customize-settings/key-bindings.md
+        - name: アクション
+          href: customize-settings/actions.md
     - name: コマンド ライン引数
       href: command-line-arguments.md
     - name: コマンド パレット
@@ -38,6 +38,8 @@
           href: tutorials/tab-title.md
     - name: カスタム ターミナル ギャラリー
       items:
+        - name: カスタム ターミナル ガイド
+          href: custom-terminal-gallery/custom-schemes.md
         - name: PowerShell での Powerline
           href: custom-terminal-gallery/powerline-in-powershell.md
         - name: Raspberry Ubuntu

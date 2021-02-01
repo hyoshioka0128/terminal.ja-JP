@@ -6,12 +6,12 @@ ms.author: cinnamon
 ms.date: 09/22/2020
 ms.topic: overview
 ms.localizationpriority: high
-ms.openlocfilehash: 7de6f7f2286424958b4035e049cf90a97ff5211a
-ms.sourcegitcommit: 9a2f9d152f65cdc8106fb9aad7fa69b01f3d05db
+ms.openlocfilehash: 7fc5dd524abc7e385a5509700745ecd587260d37
+ms.sourcegitcommit: 7855b73a8b3f84ee6bd42797e40281a3dadb152a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94520307"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98980935"
 ---
 # <a name="what-is-windows-terminal"></a>Windows ターミナルとは
 
@@ -48,7 +48,7 @@ Windows ターミナルではテキストのレンダリングに GPU を使用�
 
 ## <a name="background-image-support"></a>背景画像のサポート
 
-Windows ターミナル ウィンドウ内に背景画像と gif を含めることができます。 プロファイルに背景画像を追加する方法については、[プロファイル設定に関するページ](./customize-settings/profile-settings.md#background-image-settings)を参照してください。
+Windows ターミナル ウィンドウ内に背景画像と gif を含めることができます。 プロファイルに背景画像を追加する方法については、[プロファイルの外観に関するページ](./customize-settings/profile-appearance.md#background-image)を参照してください。
 
 ## <a name="command-line-arguments"></a>コマンド ライン引数
 

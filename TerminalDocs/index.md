@@ -3,15 +3,15 @@ title: Windows Terminal の概要
 description: Windows Terminal の概要と、それによってコマンド ライン ワークフローを改善する方法について説明します。
 author: cinnamon-msft
 ms.author: cinnamon
-ms.date: 05/19/2020
+ms.date: 09/22/2020
 ms.topic: overview
-ms.service: terminal
 ms.localizationpriority: high
-ms.openlocfilehash: abc0397c3f26da92980377aac2df466fe1bf190e
-ms.sourcegitcommit: d8e23557224bc50a82a36dc80ac68b9d11dfdde9
+ms.openlocfilehash: 7fc5dd524abc7e385a5509700745ecd587260d37
+ms.sourcegitcommit: 7855b73a8b3f84ee6bd42797e40281a3dadb152a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84720118"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98980935"
 ---
 # <a name="what-is-windows-terminal"></a>Windows Terminal とは
 
@@ -22,7 +22,8 @@ Windows Terminal は、コマンド プロンプト、PowerShell、Linux 用 Win
 > [!NOTE]
 > [コンソール、ターミナル、シェルの違いとは](https://www.hanselman.com/blog/WhatsTheDifferenceBetweenAConsoleATerminalAndAShell.aspx) Scott Hanselman の説明をお読みください。
 
-## <a name="multiple-profiles-supporting-a-variety-of-command-line-applications"></a>さまざまなコマンドライン アプリケーションをサポートする複数のプロファイル
+## <a name="multiple-profiles-supporting-a-variety-of-command-line-applications"></a>さまざまなコマンド ライン アプリケーションをサポートする複数のプロファイル
+
 
 コマンドライン インターフェイスを持つ任意のアプリケーションを Windows Terminal 内で実行できます。 これには、PowerShell およびコマンド プロンプトから Azure Cloud Shell、Ubuntu や Oh-My-Zsh などの任意の WSL ディストリビューションまで、あらゆるものが含まれます。
 
@@ -30,13 +31,13 @@ Windows Terminal は、コマンド プロンプト、PowerShell、Linux 用 Win
 
 Windows Terminal にさまざまな配色や設定を構成できます。 独自の配色を作成する方法については、[配色に関するページ](./customize-settings/color-schemes.md)を参照してください。 [カスタム ターミナル ギャラリー](./custom-terminal-gallery/powerline-in-powershell.md)でカスタム ターミナル構成を見つけることもできます。
 
-## <a name="custom-key-bindings"></a>カスタム キー バインド
+## <a name="custom-actions"></a>カスタム アクション
 
 Windows Terminal では、より自然に使用できるようにするためにさまざまなカスタム キーの組み合わせが用意されています。 特定のショートカット キーが気に入らない場合は、お好きなものに変更できます。
 
-たとえば、コマンド ラインからテキストをコピーするための既定のショートカット キー バインドは、<kbd>ctrl+shift+c</kbd> です。 これを、<kbd>ctrl+1</kbd> やお好きなものに変更できます。 新しいタブを開くための既定のショートカットは <kbd>ctrl+shift+t</kbd> ですが、これを <kbd>ctrl+2</kbd> に変更することもできます。 開いているタブの間を切り替える既定のショートカットは <kbd>ctrl+tab</kbd> ですが、これを <kbd>ctrl+-</kbd> に変更し、代わりに新しいタブを作成するために使用できます。
+たとえば、コマンド ラインからテキストをコピーするための既定のショートカットは、<kbd>ctrl+shift+c</kbd> です。 これを、<kbd>ctrl+1</kbd> やお好きなものに変更できます。 新しいタブを開くための既定のショートカットは <kbd>ctrl+t</kbd> ですが、これを <kbd>ctrl+2</kbd> に変更することもできます。 開いているタブの間を切り替える既定のショートカットは <kbd>ctrl+tab</kbd> ですが、これを <kbd>ctrl+-</kbd> に変更し、代わりに新しいタブを作成するために使用できます。
 
-キー バインドのカスタマイズについては、[キー バインドに関するページ](./customize-settings/key-bindings.md)を参照してください。
+ショートカットをカスタマイズする方法については、[「操作」ページ](./customize-settings/actions.md)を参照してください。
 
 ## <a name="unicode-and-utf-8-character-support"></a>Unicode および UTF-8 文字のサポート
 
@@ -56,7 +57,7 @@ Windows Terminal ウィンドウ内に背景画像と gif を含めることが�
 
 たとえば、左側のペインでコマンド プロンプト プロファイルを実行し、右側のペインを PowerShell と WSL を実行する既定のプロファイルとの間で分割した、3 つのペインがある PowerShell から Windows Terminal を開くには、次のように入力します。
 
-```bash
+```powershell
 wt -p "Command Prompt" `; split-pane -p "Windows PowerShell" `; split-pane -H wsl.exe
 ```
 

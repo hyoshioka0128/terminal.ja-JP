@@ -6,22 +6,34 @@
       href: get-started.md
     - name: 設定のカスタマイズ
       items:
-        - name: グローバル設定
-          href: customize-settings/global-settings.md
-        - name: プロファイルの設定
-          href: customize-settings/profile-settings.md
+        - name: スタートアップ
+          href: customize-settings/startup.md
+        - name: 相互作用
+          href: customize-settings/interaction.md
+        - name: 外観
+          href: customize-settings/appearance.md
         - name: 配色
           href: customize-settings/color-schemes.md
-        - name: ショートカット キー
-          href: customize-settings/key-bindings.md
+        - name: 表示
+          href: customize-settings/rendering.md
+        - name: プロファイル - 全般
+          href: customize-settings/profile-general.md
+        - name: プロファイル - 外観
+          href: customize-settings/profile-appearance.md
+        - name: プロファイル - 詳細
+          href: customize-settings/profile-advanced.md
+        - name: アクション
+          href: customize-settings/actions.md
     - name: コマンド ライン引数
       href: command-line-arguments.md
-    - name: 動的プロファイル
-      href: dynamic-profiles.md
+    - name: コマンド パレット
+      href: command-palette.md
     - name: 検索
       href: search.md
     - name: ペイン
       href: panes.md
+    - name: 動的プロファイル
+      href: dynamic-profiles.md
     - name: Cascadia Code
       href: cascadia-code.md
     - name: ヒントとテクニック
@@ -36,6 +48,8 @@
           href: tutorials/tab-title.md
     - name: カスタム ターミナル ギャラリー
       items:
+        - name: カスタム ターミナル ガイド
+          href: custom-terminal-gallery/custom-schemes.md
         - name: PowerShell での Powerline
           href: custom-terminal-gallery/powerline-in-powershell.md
         - name: Raspberry Ubuntu
